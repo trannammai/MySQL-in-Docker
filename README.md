@@ -67,4 +67,4 @@ to_bigquery.sql
 SELECT * FROM bq_data LIMIT 20;
 ```
 
-Message from candidate: I'm stuck at transfering data from MYSQL on Compute Engine to BigQuery. My plan is to write a scheduled job on Cloud Composer or Airflow but didn't manage to sort it out. I'm sorry for the unfinished work. -Nam Mai-
+**Message from candidate: I'm stuck at transfering data from MYSQL on Compute Engine to BigQuery. My plan is to write a scheduled job on Cloud Composer or Airflow but didn't manage to sort it out. I'm sorry for the unfinished work. -Nam Mai-**
