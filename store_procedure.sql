@@ -76,4 +76,4 @@ SET @get_data = CONCAT("INSERT INTO ", dtb, ".", tbl, " VALUES (", get_data, ");
 LEAVE store_prod_random;
 END LOOP store_prod_random;
 END $$
-DELIMITER;
+DELIMITER $$

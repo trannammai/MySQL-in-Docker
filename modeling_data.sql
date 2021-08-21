@@ -7,3 +7,4 @@ ALTER TABLE studying ADD FOREIGN KEY (id_std_fk) REFERENCES students(id_std);
 ALTER TABLE studying ADD FOREIGN KEY (id_crs_fk) REFERENCES courses(id_crs);
 
 ALTER TABLE studying ADD id_studying FLOAT NOT NULL PRIMARY KEY AUTO_INCREMENT;
+$$
