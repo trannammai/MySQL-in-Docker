@@ -47,6 +47,7 @@ docker ps
 docker exec -it edd57116c83a bash
 ```
 8. Once access to the root, connect to mysql database with username being root and password being password <br>
+```
 mysql -uroot -ppassword
 ```
 9. List all databases. One can see that mydb database is initialized with 4 pre-defined tables <br>
