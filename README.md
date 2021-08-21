@@ -57,10 +57,7 @@ use mydb;
 show tables;
 ```
 10. Run the script according to the following dependency to populate random data into tables. You can copy the script and execute directly in the SSH of the VM <br>
-udf.sql
-store_procedure.sql
-populate_data.sql
-modeling_data.sql
+udf.sql > store_procedure.sql > populate_data.sql > modeling_data.sql
 
 11. Run the script to create a table which contains 1000 students from 10 schools and registering 3 courses as required. You can copy the script and execute directly in the SSH of the VM <br>
 to_bigquery.sql
