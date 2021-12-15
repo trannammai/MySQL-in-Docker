@@ -1,5 +1,3 @@
-# Before going further, please pull the repo from my github account to your Docker developing environment.
-
 # Creating a MySQL database in docker container environement
 1. Open the terminal Execute the docker-compose.yml file by running the following script. <br>
 
