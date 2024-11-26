@@ -9,7 +9,7 @@ docker compose up
 ```
 docker ps 
 ```
-The container image for MySQL database and Adminer should be available. Besides, you can verify if the database is initialized following the rule in ./mysql/data.sql file by going to http://localhost:8080/. Fill in the root and password specified in the .env file.
+The container image for MySQL database and Adminer should be available. Besides, we can verify if the database is initialized following the rule in ./mysql/data.sql file by going to http://localhost:8080/. Fill in the root and password specified in the .env file.
 
 # Now the container image is ready in our local machine. Let's pull up to Google Cloud Platform
 # Upload container to Docker Hub and Container Registry
