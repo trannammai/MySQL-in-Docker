@@ -2,7 +2,7 @@
 1. Open the terminal Execute the docker-compose.yml file by running the following script. <br>
 
 ```
-docker-compose up
+docker compose up
 ```
 
 2. Once the script is launched, open another terminal to check whether the container is up and running <br>

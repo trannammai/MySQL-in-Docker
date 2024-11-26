@@ -1,3 +1,7 @@
+-- UDF to generate mock data for testing or simulating a database system. For example:
+-- Populating a table with random student records (ID, gender, DOB, etc.).
+-- Simulating course enrollment data (student, course, timestamp).
+-- Mocking school datasets for analytics or debugging
 
 CREATE FUNCTION random_student() RETURNS INT DETERMINISTIC
         RETURN FLOOR(RAND() * 1000) + 1;
