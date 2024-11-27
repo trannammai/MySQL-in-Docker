@@ -1,3 +1,6 @@
+Objective of this mini-project is to spin up a MySQL database and populate the data into BigQuery table
+
+
 # Creating a MySQL database in docker container environement
 1. Open the terminal Execute the docker-compose.yml file by running the following script. <br>
 
