@@ -28,3 +28,13 @@ This mini-project demonstrates how to set up a MySQL database in a Docker contai
 Execute the `docker-compose.yml` file to spin up the MySQL container:
 ```bash
 docker compose up
+```
+
+### **1.2 Verify the Container is Running
+Check if the MySQL and Adminer containers are running:
+
+```bash
+docker ps
+```
+Visit http://localhost:8080/ to verify the database initialization. Use the root username and password specified in the .env file. The database is initialized based on the ./mysql/data.sql script.
+
